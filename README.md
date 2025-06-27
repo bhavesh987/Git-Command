@@ -3,12 +3,16 @@ Git Commands
 
 ## Translated Versions
 - [Versão em português](READMEpt.md)
+- [Versión en español](READMEes.md)
+- [Türkçe versiyon](READMEtr.md)
+- [Azərbaycanca versiya](READMEaz.md)
+- [বাংলা সংস্করণ](READMEbn.md)
+- [हिन्दी अनुवाद](READMEhi.md)
+- [العربية](READMEar.md)
 
 ___
 
 _A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
 
@@ -28,6 +32,7 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git remote -v` | View the remote repository of the currently working file or directory |
 
 ### Branching & Merging
 
@@ -48,6 +53,7 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash pop` | Apply latest stash to working directory |
 
 ### Sharing & Updating Projects
 
